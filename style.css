@@ -1,0 +1,87 @@
+
+body {
+  font-family: Helvetica, Arial, Sans-Serif;
+}
+
+
+a {
+  color: #a37cd4;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a37cd4;
+}
+
+
+a:active {
+  color: white;
+}
+
+a:visited {
+  color: #a37cd4;
+}
+
+
+th, td { 
+  border: solid 1px black; 
+  padding: 3px 6px;
+}
+
+
+table { 
+  border-collapse: collapse; 
+}
+
+tr:nth-child(even) {
+  background-color: #eaeaea;
+}
+
+tr.currentlytaking {
+  color: #a37cd4;
+}
+
+td.enrollheader {
+  background-color:white;
+  text-align:center;
+  font-weight:bold;
+}
+
+.section {
+  font-size: 16px;
+}
+
+.section h2 {
+  background-color: #b6d2ec;
+  font-family: Georgia;
+  color: #a37cd4;
+  padding: 5px;
+}
+
+span.serious {
+  font-family: "Impact";
+}
+
+span.silly {
+  font-family: "Comic Sans MS";
+}   
+
+#photo { 
+  float: right; 
+}
+
+#left {
+  position: relative;
+  float: left;
+}
+
+#right {
+  position: relative;
+  float: right;
+}
+
+img {
+  margin-right: 500px;
+  margin-top: 200px;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   
+    <title>Dog D. Dog's Homepage</title>
+    
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+  </head>
+  <body>
+    
+    <h1>thitiwut wongsue </h1>
+
+     <div id="right">
+        <p>
+          <img alt="" src="http://i.imgur.com/L34Fib6.jpg" 
+          id="imgClickAndChange" onclick="changeImage()"  />
+        </p>
+            <script language="javascript">
+                function changeImage() {
+                    if (document.getElementById("imgClickAndChange").src == "http://i.imgur.com/L34Fib6.jpg") 
+                  {
+                     document.getElementById("imgClickAndChange").src = "https://m.media-amazon.com/images/I/51XISp6ViuL._AC_SY355_.jpg";
+                  }
+                    else 
+                    {
+                      document.getElementById("imgClickAndChange").src = "http://i.imgur.com/L34Fib6.jpg";
+                    }
+                }
+            </script>
+    </div>
+
+    <div id="left">
+
+     
+    <div class="section" id="about">
+
+      
+      <h2>About</h2>
+
+     
+      <p>Hello Word</p>
+
+      
+      <p>Hi, I'm thitiwut. I love <a href="http://en.wikipedia.org/wiki/User_interface_design">User Interface Design</a>.</p>    
+    </div>
+
+    <div class="section" id="courses">
+        <h2>Courses</h2>
+        <p>Here are some courses I've taken:</p>
+
+        
+        <table>
+          <thead>
+           
+            <tr>
+              
+              <th>Course Number</th>
+              <th>Course Title</th>
+              <th>Semester Taken</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="enrollheader" colspan=3>For Credit</td>
+            </tr>
+            <tr class="currentlytaking">
+              <td><a href="http://stellar.mit.edu/S/course/6/sp14/6.813/index.html">6.813</a></td>
+              <td>User Interface Design</td>
+              <td>Spring 2014</td>
+            </tr>     
+            <tr>
+              <td><a href="http://ai6034.mit.edu/fall12/index.php?title=Main_Page">6.034</a></td>
+              <td>Artificial Intelligence</td>
+              <td>Fall 2013</td>
+            </tr>
+            <tr>
+              <td><a href="http://stellar.mit.edu/S/course/6/fa13/6.006/">6.006</a></td>
+              <td>Introduction to Algorithms</td>
+              <td>Fall 2013</td>
+            </tr>
+            <tr>
+              <td class="enrollheader" colspan=3>Listener</td>
+            </tr>
+            <tr>
+              <td><a href="http://stellar.mit.edu/S/course/6/fa13/6.867/">6.867</a></td>
+              <td>Machine Learning</td>
+              <td>Fall 2013</td>
+            </tr>
+            <tr>
+              <td><a href="http://db.csail.mit.edu/6.830/index.php">6.830</a></td>
+              <td>Database Systems</td>
+              <td>Fall 2012</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="section" id="interests">
+        <h2>Interests</h2>
+        
+        I am interested <span class="serious">HCI</span>, <span class="silly">memes</span>, and <span class="silly">youtube videos</span>.
+      </div>
+
+      <div class="section" id="petinfo">
+        <h2>Submit Pet Information</h2>
+        <p>Would love to know what kinds of pets you 'own' (you'll never own me). Submit below!</p>
+
+       
+        <form>
+          
+          <label for="petname">Name:</label>
+          <input id="petname" type="text" name="petname"><br>
+          <label for="phylum">Phylum:</label>
+          <input id="phylum" type="text" name="phylum"><br>
+          <label for="gender">Gender:</label>
+          <input id="gender" type="text" name="gender"><br>
+
+          
+            <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
